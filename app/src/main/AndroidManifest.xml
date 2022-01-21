@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CafeHouse">
         <activity
+            android:name=".menu"
+            android:exported="false" />
+        <activity
             android:name=".signin"
             android:exported="false" />
         <activity
