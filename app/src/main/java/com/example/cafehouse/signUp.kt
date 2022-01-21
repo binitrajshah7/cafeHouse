@@ -33,5 +33,8 @@ class signUp : AppCompatActivity() {
     fun welcomeToast(view: View) {
         val userName = editTextPersonName.editableText.toString()
         Toast.makeText(this,"Welcome $userName", Toast.LENGTH_SHORT).show();
+        val intent = Intent(this, menu::class.java)
+        startActivity(intent)
+        intent.putExtra("NAME_EXTRA", userName)
     }
 }
