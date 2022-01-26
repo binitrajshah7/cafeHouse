@@ -31,10 +31,13 @@ class signUp : AppCompatActivity() {
 
     // function runs when we click register button in the signup page
     fun welcomeToast(view: View) {
+        // taking input from user
         val userName = editTextPersonName.editableText.toString()
+        // toast
         Toast.makeText(this,"Welcome $userName", Toast.LENGTH_SHORT).show();
+        // intent to open up menu page after hitting register
         val intent = Intent(this, menu::class.java)
-        startActivity(intent)
         intent.putExtra("NAME_EXTRA", userName)
+        startActivity(intent)
     }
 }

@@ -7,11 +7,11 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#753C3A3A"></LinearLayout>
+        android:background="#753C3A3A">
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
             android:layout_marginTop="40dp"
             android:layout_marginEnd="40dp"
@@ -91,8 +91,70 @@
                 android:textColor="#FFFFFF"
                 android:textSize="16sp"
                 android:textStyle="bold" />
+
+
+            // contact us
+
+            <TextView
+                android:id="@+id/ReachUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Reach Us"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            // using explicit intent for 3 buttons in this linear layout
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                // mail
+
+                <TextView
+                    android:id="@+id/mailBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/mailbuttongradient"
+                    android:drawableLeft="@drawable/gmail"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:textColor="@color/black" />
+                // browse
+
+                <TextView
+                    android:id="@+id/browseBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/mailbuttongradient"
+                    android:drawableLeft="@drawable/browsing"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:textColor="@color/black" />
+
+                // dial
+
+                <TextView
+                    android:id="@+id/dialBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/mailbuttongradient"
+                    android:drawableLeft="@drawable/telephone"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
-
-
 </RelativeLayout>
