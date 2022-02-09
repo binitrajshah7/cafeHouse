@@ -114,6 +114,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -155,6 +156,59 @@
                     android:padding="20dp"
                     android:textColor="@color/black" />
             </LinearLayout>
+
+            // capturing URLs using intents
+            // when we click the url it shows relevant application or browser options to
+            // open the activity
+
+            //
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Social Media"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fbBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/facebook2" />
+
+                <ImageView
+                    android:id="@+id/instagramBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/instagram2" />
+
+                <ImageView
+                    android:id="@+id/twitterBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/twitter" />
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
