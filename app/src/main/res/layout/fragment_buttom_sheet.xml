@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
     tools:context=".buttomSheet">
 
     <TextView
@@ -160,9 +161,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginRight="16dp"
+        android:layout_margin="16dp"
         android:background="@drawable/proceedgradient"
         android:text="proceed next"
         android:textColor="@color/white"
@@ -172,5 +171,13 @@
         app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button">
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

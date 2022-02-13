@@ -40,7 +40,7 @@
                 android:fontFamily="@font/aclonica"
                 android:gravity="center"
                 android:text="Cafe House"
-                android:textColor="@color/white"
+                android:textColor="#fece2f"
                 android:textSize="40sp"
                 android:textStyle="bold" />
 
@@ -48,9 +48,8 @@
                 android:id="@+id/loginButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/buttongradient"
-                android:drawablePadding="6dp"
                 android:text="Login"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp"
@@ -60,9 +59,8 @@
                 android:id="@+id/signUpButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/buttongradient"
-                android:drawablePadding="6dp"
                 android:text="signup"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp"
@@ -72,7 +70,7 @@
                 android:id="@+id/skipButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/aclonica"
                 android:gravity="center"
                 android:text="Skip"
@@ -84,9 +82,8 @@
                 android:id="@+id/memeButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/buttongradient"
-                android:drawablePadding="6dp"
                 android:text="meme here"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp"
@@ -99,7 +96,7 @@
                 android:id="@+id/ReachUs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="Reach Us"
@@ -113,22 +110,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
                 // mail
-
                 <TextView
                     android:id="@+id/mailBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
-                    android:background="@drawable/mailbuttongradient"
-                    android:drawableLeft="@drawable/gmail"
+                    android:drawableLeft="@drawable/email"
                     android:gravity="center"
-                    android:padding="20dp"
                     android:textColor="@color/black" />
                 // browse
 
@@ -137,32 +129,24 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
-                    android:background="@drawable/mailbuttongradient"
-                    android:drawableLeft="@drawable/browsing"
+                    android:drawableLeft="@drawable/internet"
                     android:gravity="center"
-                    android:padding="20dp"
                     android:textColor="@color/black" />
 
                 // dial
-
                 <TextView
                     android:id="@+id/dialBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
-                    android:background="@drawable/mailbuttongradient"
                     android:drawableLeft="@drawable/telephone"
                     android:gravity="center"
-                    android:padding="20dp"
                     android:textColor="@color/black" />
             </LinearLayout>
 
             // capturing URLs using intents
             // when we click the url it shows relevant application or browser options to
             // open the activity
-
-            //
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -170,6 +154,7 @@
                 android:text="Social Media"
                 android:textColor="@color/white"
                 android:textSize="24sp"
+                android:layout_marginTop="10dp"
                 android:textStyle="bold">
 
             </TextView>
@@ -178,7 +163,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
                 android:layout_marginBottom="40dp"
                 android:gravity="center"
                 android:orientation="horizontal">

@@ -17,5 +17,4 @@ class menu : AppCompatActivity() {
         val name = intent.getStringExtra(Name)
         welcomeGreet.text = "Welcome to Cafe House $name"
     }
-
 }

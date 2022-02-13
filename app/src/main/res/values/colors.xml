@@ -8,5 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="logocolour">#AC7A4A</color>
+    <color name="logobackground">#fece2f</color>
 
 </resources>

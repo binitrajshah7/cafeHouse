@@ -42,10 +42,11 @@
                     android:text="Cafe House"
                     android:textColor="@color/logocolour"
                     android:textSize="40sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
 
                 <EditText
-                    android:id="@+id/editTextEmailAddress"
+                    android:id="@+id/EmailAddress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
@@ -74,6 +75,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/buttongradient"
                     android:text="sign in"
+                    android:onClick="homepage"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
 
