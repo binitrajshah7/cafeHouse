@@ -39,12 +39,25 @@
         android:id="@+id/cart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="top|end"
+        android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginTop="70dp"
+        android:layout_marginBottom="80dp"
         app:maxImageSize="30dp"
         app:srcCompat="@drawable/ic_baseline_shopping_cart_24"
         android:tint="@color/white"
         android:onClick="cartList"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="145dp"
+        app:maxImageSize="30dp"
+        app:srcCompat="@drawable/ic_baseline_description_24"
+        android:tint="@color/white"
+        android:onClick="description"/>
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

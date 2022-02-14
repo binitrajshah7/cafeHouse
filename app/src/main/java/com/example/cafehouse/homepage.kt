@@ -88,10 +88,11 @@ class homepage : AppCompatActivity() {
     fun cartList(view: View) {
 
         val cartList = buttomSheet()
-
         cartList.show(supportFragmentManager, "Buttom Sheet Dialogue Tag")
+    }
 
-
-
+    fun description(view: View) {
+        val intent = Intent(this, description :: class.java)
+        startActivity(intent)
     }
 }
