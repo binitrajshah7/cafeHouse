@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/binit/.gradle/caches/transforms-3/b1aa95ab26f6e1763e1b9ea3e82669e5/transformed/material-1.5.0/res/drawable/navigation_empty_icon.xml" value="0.1355" />
         <entry key="..\:/Users/binit/AndroidStudioProjects/cafeHouse/app/src/main/res/drawable-v24/buttongradient.xml" value="0.2" />
         <entry key="..\:/Users/binit/AndroidStudioProjects/cafeHouse/app/src/main/res/drawable-v24/facebookbuttongradient.xml" value="0.290625" />
         <entry key="..\:/Users/binit/AndroidStudioProjects/cafeHouse/app/src/main/res/drawable-v24/googlebuttongradient.xml" value="0.290625" />
@@ -20,7 +21,7 @@
         <entry key="..\:/Users/binit/AndroidStudioProjects/cafeHouse/app/src/main/res/layout/activity_signin.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/binit/AndroidStudioProjects/cafeHouse/app/src/main/res/layout/activity_splash_screen.xml" value="0.25677083333333334" />
         <entry key="..\:/Users/binit/AndroidStudioProjects/cafeHouse/app/src/main/res/layout/content_homepage.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/binit/AndroidStudioProjects/cafeHouse/app/src/main/res/layout/fragment_buttom_sheet.xml" value="0.24662162162162163" />
+        <entry key="..\:/Users/binit/AndroidStudioProjects/cafeHouse/app/src/main/res/layout/fragment_buttom_sheet.xml" value="0.264" />
         <entry key="..\:/Users/binit/AndroidStudioProjects/cafeHouse/app/src/main/res/layout/fragment_first.xml" value="0.2682291666666667" />
         <entry key="..\:/Users/binit/AndroidStudioProjects/cafeHouse/app/src/main/res/layout/fragment_second.xml" value="0.25677083333333334" />
         <entry key="..\:/Users/binit/AndroidStudioProjects/cafeHouse/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1525" />

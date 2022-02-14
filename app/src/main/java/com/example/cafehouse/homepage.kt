@@ -84,7 +84,7 @@ class homepage : AppCompatActivity() {
                 || super.onSupportNavigateUp()
     }
 
-    // bottom sheet from cart
+    // bottom sheet from cart 
     fun cartList(view: View) {
 
         val cartList = buttomSheet()
