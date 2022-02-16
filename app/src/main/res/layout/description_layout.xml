@@ -3,7 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:circularflow_radiusInDP="8dp"
+    android:elevation="50dp"
+    android:outlineAmbientShadowColor="@color/black"
+    android:outlineSpotShadowColor="@color/black"
+    tools:ignore="UnusedAttribute">
 
     <LinearLayout
         android:id="@+id/linearCard"
@@ -28,8 +34,9 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_medium"
             android:text="Description"
+            android:textColor="#BE000000"
             android:textSize="16sp"
-            android:textColor="#BE000000"/>
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
 
